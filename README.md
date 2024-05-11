@@ -36,26 +36,33 @@ COPY pizzas FROM 'D:/akshay/pizza_sales.csv' WITH (FORMAT csv, HEADER);
 ```
 
 ## Query Descriptions
-## Query Descriptions
 
 1. **Total Revenue**: Calculates the total revenue generated from pizza sales.
+ ```sql
+ SELECT Sum(total_price) AS Total_Revenue
+FROM   pizzas
+```
 
 2. **Average Order Value**: Computes the average value of each order, considering total revenue and the number of orders.
 
-3. **Total Pizzas Sold**: Determines the total quantity of pizzas sold across all orders.
+6. **Total Pizzas Sold**: Determines the total quantity of pizzas sold across all orders.
 
-4. **Total Orders**: Counts the total number of unique orders placed.
+7. **Total Orders**: Counts the total number of unique orders placed.
 
-5. **Average Pizzas Per Order**: Calculates the average number of pizzas ordered per order.
+8. **Average Pizzas Per Order**: Calculates the average number of pizzas ordered per order.
 
-6. **Inventory and Supply Chain Management**: Provides insights into inventory management by analyzing the usage count of pizza ingredients.
+9. **Inventory and Supply Chain Management**: Provides insights into inventory management by analyzing the usage count of pizza ingredients.
 
-7. **Daily and Monthly Trends**: Analyzes the frequency of orders on a daily and monthly basis to identify trends in sales volume.
+10. **Daily and Monthly Trends**: Analyzes the frequency of orders on a daily and monthly basis to identify trends in sales volume.
 
-8. **Sales Analysis by Category and Size**: Examines sales performance based on pizza category and size to understand customer preferences.
+11. **Sales Analysis by Category and Size**: Examines sales performance based on pizza category and size to understand customer preferences.
 
-9. **Top and Bottom Performers**: Identifies the top and bottom-performing pizzas in terms of revenue, quantity sold, or total orders.
+12. **Top and Bottom Performers**: Identifies the top and bottom-performing pizzas in terms of revenue, quantity sold, or total orders.
 
-10. **Monthly Sales Trends**: Provides a detailed analysis of monthly sales trends to track performance over time.
+13. **Monthly Sales Trends**: Provides a detailed analysis of monthly sales trends to track performance over time.
 
-11. **Cost Analysis**: Calculates the average cost per pizza size to assess cost efficiency and pricing strategies.
+14. **Cost Analysis**: Calculates the average cost per pizza size to assess cost efficiency and pricing strategies.
+
+
+
+
