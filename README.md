@@ -44,3 +44,9 @@ CREATE TABLE pizzas
 ```sql
 COPY pizzas FROM 'D:/akshay/pizza_sales.csv' WITH (FORMAT csv, HEADER);
 ```
+
+## Query Descriptions
+-Total Revenue
+-Total Revenue: Calculates the total revenue generated from pizza sales.
+
+
