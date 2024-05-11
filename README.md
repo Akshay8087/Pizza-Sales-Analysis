@@ -22,7 +22,6 @@ This repository contains a series of SQL queries designed to analyze the sales d
 
 ## Database Setup
 
-```sql
 DROP TABLE IF EXISTS pizzas;
 CREATE TABLE pizzas
 (
