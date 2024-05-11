@@ -42,3 +42,5 @@ CREATE TABLE pizzas
 
 ## Import Data
 
+COPY pizzas FROM 'D:/akshay/pizza_sales.csv' WITH (FORMAT csv, HEADER);
+
