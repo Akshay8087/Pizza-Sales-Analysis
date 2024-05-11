@@ -54,8 +54,11 @@ FROM
   pizzas
  ```
 
-6. **Total Pizzas Sold**: Determines the total quantity of pizzas sold across all orders.
-
+3. **Total Pizzas Sold**: Determines the total quantity of pizzas sold across all orders.
+ ```sql
+   SELECT SUM(quantity) AS Total_pizza_sold
+FROM pizzas
+```
 7. **Total Orders**: Counts the total number of unique orders placed.
 
 8. **Average Pizzas Per Order**: Calculates the average number of pizzas ordered per order.
