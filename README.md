@@ -7,17 +7,7 @@ This repository contains a series of SQL queries designed to analyze the sales d
 - [Database Setup](#database-setup)
 - [Import Data](#import-data)
 - [Query Descriptions](#query-descriptions)
-  - [Total Revenue](#total-revenue)
-  - [Average Order Value](#average-order-value)
-  - [Total Pizzas Sold](#total-pizzas-sold)
-  - [Total Orders](#total-orders)
-  - [Average Pizzas Per Order](#average-pizzas-per-order)
-  - [Inventory and Supply Chain Management](#inventory-and-supply-chain-management)
-  - [Daily and Monthly Trends](#daily-and-monthly-trends)
-  - [Sales Analysis by Category and Size](#sales-analysis-by-category-and-size)
-  - [Top and Bottom Performers](#top-and-bottom-performers)
-  - [Monthly Sales Trends](#monthly-sales-trends)
-  - [Cost Analysis](#cost-analysis)
+- [Power BI Dashboard](#power-bi-dashboard)
 - [Run the Queries](#run-the-queries)
 
 ## Database Setup
