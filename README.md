@@ -100,7 +100,7 @@ FROM
   pizzas 
 GROUP BY 
   to_char(order_date, 'Day');
-   ```
+```
 
 8. **Sales Analysis by Category and Size**: Examines sales performance based on pizza category and size to understand customer preferences.
    ```sql 
