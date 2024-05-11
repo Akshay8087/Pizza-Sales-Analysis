@@ -129,6 +129,16 @@ GROUP BY
 ORDER BY
     Total_Revenue ASC;
 ```
+```sql 
+
+--I. Top 5 Pizzas by Quantity
+
+SELECT pizza_name, SUM(quantity) AS Total_Pizza_Sold
+FROM pizzas
+GROUP BY pizza_name
+ORDER BY Total_Pizza_Sold DESC
+LIMIT 5;
+```
 
 15. **Monthly Sales Trends**: Provides a detailed analysis of monthly sales trends to track performance over time.
 
