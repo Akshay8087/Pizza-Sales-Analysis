@@ -139,6 +139,10 @@ SELECT pizza_name, SUM(quantity) AS Total_Pizza_Sold
 FROM pizzas
 GROUP BY pizza_name
 ORDER BY Total_Pizza_Sold DESC
+```
+
+
+```sql 
 
 --J. Bottom 5 Pizzas by Quantity
 
@@ -147,7 +151,10 @@ FROM pizzas
 GROUP BY pizza_name
 ORDER BY Total_Pizza_Sold ASC
 LIMIT 5;
+```
 
+
+```sql 
 
 --K. Top 5 Pizzas by Total Orders
 
