@@ -103,6 +103,18 @@ GROUP BY
    ```
 
 8. **Sales Analysis by Category and Size**: Examines sales performance based on pizza category and size to understand customer preferences.
+   ```sql 
+SELECT
+ pizza_category,
+ 
+ ROUND(SUM(total_price)::NUMERIC,
+        2) AS total_revenue,
+        
+ ROUND(SUM(total_price) * 100 / (SELECT SUM(total_price)
+    FROM pizzas)::NUMERIC, 2) AS PCT
+FROM pizzas
+GROUP BY pizza_category;
+   ```
 
 14. **Top and Bottom Performers**: Identifies the top and bottom-performing pizzas in terms of revenue, quantity sold, or total orders.
 
