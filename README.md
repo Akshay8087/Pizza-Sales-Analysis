@@ -193,5 +193,5 @@ ORDER BY average_cost DESC;
 
 ![power bi 1](https://github.com/Akshay8087/Pizza-Sales-Analysis/assets/139254824/1c5ad2cb-6517-4a1c-bfd3-bab215950417)
 
-![power bi 1](https://github.com/Akshay8087/Pizza-Sales-Analysis/assets/139254824/1c5ad2cb-6517-4a1c-bfd3-bab215950417)
+![power bi 22](https://github.com/Akshay8087/Pizza-Sales-Analysis/assets/139254824/795ee89f-1039-46ee-a262-c02e3e17aeef)
 
