@@ -168,9 +168,26 @@ LIMIT 5;
 ```
 
 15. **Monthly Sales Trends**: Provides a detailed analysis of monthly sales trends to track performance over time.
+```sql 
+--Monthly Sales Trends
 
-16. **Cost Analysis**: Calculates the average cost per pizza size to assess cost efficiency and pricing strategies.
+SELECT EXTRACT(YEAR FROM order_date) AS year,
+EXTRACT(MONTH FROM order_date) AS month, SUM(total_price) AS monthly_sales
+FROM pizzas
+GROUP BY year, month
+ORDER BY year, month;
+```
 
 
+17. **Cost Analysis**: Calculates the average cost per pizza size to assess cost efficiency and pricing strategies.
+```sql 
+
+-- Cost Analysis Average Cost Per Pizza Size
+
+SELECT pizza_size, AVG(unit_price) AS average_cost
+FROM pizzas
+GROUP BY pizza_size
+ORDER BY average_cost DESC;
+```
 
 
