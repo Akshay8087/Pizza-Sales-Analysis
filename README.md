@@ -21,7 +21,7 @@ This repository contains a series of SQL queries designed to analyze the sales d
 - [Run the Queries](#run-the-queries)
 
 ## Database Setup
-
+```sql
 DROP TABLE IF EXISTS pizzas;
 CREATE TABLE pizzas
 (
@@ -38,6 +38,7 @@ CREATE TABLE pizzas
     pizza_ingredients   TEXT,
     pizza_name          VARCHAR(255)
 );
+```
 
 ## New Section Title
 
