@@ -40,6 +40,5 @@ CREATE TABLE pizzas
 );
 ```
 
-## New Section Title
+## Import Data
 
-[kbkigigi]
