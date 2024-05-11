@@ -44,6 +44,15 @@ FROM   pizzas
 ```
 
 2. **Average Order Value**: Computes the average value of each order, considering total revenue and the number of orders.
+```sql
+
+ SELECT 
+  (
+    SUM(total_price) / COUNT(DISTINCT order_id)
+  ) AS Avg_order_Value 
+FROM 
+  pizzas
+ ```
 
 6. **Total Pizzas Sold**: Determines the total quantity of pizzas sold across all orders.
 
