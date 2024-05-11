@@ -39,3 +39,5 @@ CREATE TABLE pizzas
     pizza_ingredients   TEXT,
     pizza_name          VARCHAR(255)
 );
+
+## Import Data
