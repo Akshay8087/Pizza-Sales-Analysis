@@ -9,6 +9,8 @@ This repository contains a series of SQL queries designed to analyze the sales d
 - [Query Descriptions](#query-descriptions)
 - [Power BI Dashboard](#power-bi-dashboard)
 - [Run the Queries](#run-the-queries)
+- [Summary and Conclusion](#Summary-and-Conclusion)
+
 
 ## Database Setup
 ```sql
@@ -195,3 +197,4 @@ ORDER BY average_cost DESC;
 
 ![power bi 22](https://github.com/Akshay8087/Pizza-Sales-Analysis/assets/139254824/795ee89f-1039-46ee-a262-c02e3e17aeef)
 
+## Summary and Conclusion
