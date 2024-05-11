@@ -91,8 +91,9 @@ GROUP BY
 ORDER BY 
   usage_count DESC;
  ```
+
 7. **Daily and Monthly Trends**: Analyzes the frequency of orders on a daily and monthly basis to identify trends in sales volume.
-   ```sql 
+ ```sql
 SELECT 
   to_char(order_date, 'Day') AS order_day, 
   COUNT(DISTINCT order_id) AS total_orders 
