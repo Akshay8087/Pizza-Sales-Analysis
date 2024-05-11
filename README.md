@@ -167,7 +167,7 @@ limit 5
 LIMIT 5;
 ```
 
-15. **Monthly Sales Trends**: Provides a detailed analysis of monthly sales trends to track performance over time.
+10. **Monthly Sales Trends**: Provides a detailed analysis of monthly sales trends to track performance over time.
 ```sql 
 --Monthly Sales Trends
 
@@ -179,7 +179,7 @@ ORDER BY year, month;
 ```
 
 
-17. **Cost Analysis**: Calculates the average cost per pizza size to assess cost efficiency and pricing strategies.
+11. **Cost Analysis**: Calculates the average cost per pizza size to assess cost efficiency and pricing strategies.
 ```sql 
 
 -- Cost Analysis Average Cost Per Pizza Size
