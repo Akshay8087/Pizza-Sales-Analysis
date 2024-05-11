@@ -117,7 +117,18 @@ FROM pizzas
 GROUP BY pizza_category;
  ```
 
-14. **Top and Bottom Performers**: Identifies the top and bottom-performing pizzas in terms of revenue, quantity sold, or total orders.
+9. **Top and Bottom Performers**: Identifies the top and bottom-performing pizzas in terms of revenue, quantity sold, or total orders.
+```sql 
+SELECT
+    pizza_name,
+    SUM(total_price) AS Total_Revenue
+FROM
+    pizzas
+GROUP BY
+    pizza_name
+ORDER BY
+    Total_Revenue ASC;
+```
 
 15. **Monthly Sales Trends**: Provides a detailed analysis of monthly sales trends to track performance over time.
 
