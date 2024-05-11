@@ -118,7 +118,9 @@ GROUP BY pizza_category;
  ```
 
 9. **Top and Bottom Performers**: Identifies the top and bottom-performing pizzas in terms of revenue, quantity sold, or total orders.
-```sql 
+```sql
+-- Bottom 5 Pizzas by Revenue
+
 SELECT
     pizza_name,
     SUM(total_price) AS Total_Revenue
@@ -137,6 +139,24 @@ SELECT pizza_name, SUM(quantity) AS Total_Pizza_Sold
 FROM pizzas
 GROUP BY pizza_name
 ORDER BY Total_Pizza_Sold DESC
+
+--J. Bottom 5 Pizzas by Quantity
+
+SELECT pizza_name, SUM(quantity) AS Total_Pizza_Sold
+FROM pizzas
+GROUP BY pizza_name
+ORDER BY Total_Pizza_Sold ASC
+LIMIT 5;
+
+
+--K. Top 5 Pizzas by Total Orders
+
+
+SELECT pizza_name, COUNT(DISTINCT order_id) AS Total_Orders
+FROM pizzas
+GROUP BY pizza_name
+ORDER BY Total_Orders DESC
+limit 5
 LIMIT 5;
 ```
 
