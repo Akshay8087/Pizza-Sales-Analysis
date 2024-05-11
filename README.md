@@ -191,3 +191,6 @@ ORDER BY average_cost DESC;
 ```
 
 
+![power bi 1](https://github.com/Akshay8087/Pizza-Sales-Analysis/assets/139254824/1c5ad2cb-6517-4a1c-bfd3-bab215950417)
+
+
