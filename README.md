@@ -9,6 +9,7 @@ This repository contains a series of SQL queries designed to analyze the sales d
 - [Query Descriptions](#query-descriptions)
 - [Power BI Dashboard](#power-bi-dashboard)
 - [Run the Queries](#run-the-queries)
+- [Tools](#Tools)
 - [Summary and Conclusion](#Summary-and-Conclusion)
 
 
@@ -198,3 +199,15 @@ ORDER BY average_cost DESC;
 ![power bi 22](https://github.com/Akshay8087/Pizza-Sales-Analysis/assets/139254824/795ee89f-1039-46ee-a262-c02e3e17aeef)
 
 ## Summary and Conclusion
+
+
+## Tools 
+
+
+| Tool | Purpose |
+| --- | --- |
+| Excel | Exploring the data |
+| SQL Server | Cleaning, testing, and analyzing the data |
+| Power BI | Visualizing the data via interactive dashboards |
+| GitHub | Hosting the project documentation and version control |
+| Mokkup AI | Designing the wireframe/mockup of the dashboard | 
