@@ -4,6 +4,7 @@ This repository contains a series of SQL queries designed to analyze the sales d
 
 ## Table of Contents
 - [Objective](Objective)
+- [User Story](User-Story)
 - [Database Setup](#database-setup)
 - [Import Data](#import-data)
 - [Query Descriptions](#query-descriptions)
@@ -51,6 +52,16 @@ The management team of the pizza chain faced challenges in efficiently monitorin
 The deployment of this dashboard will significantly empower the pizza chain's marketing team by providing them with essential insights into sales performance, customer preferences, and operational metrics. With real-time data on total revenue, average order value, total pizzas sold, and more, the team can strategically plan and implement marketing initiatives. This will not only enhance decision-making but also optimize marketing campaigns to better target customer needs and preferences, ultimately boosting both customer engagement and profitability.
 
 
+
+## User Story
+
+**As a data science fresher working on the pizza chain BI dashboard project,**
+
+**I want** to create a dashboard that presents a comprehensive view of sales, customer behaviors, and inventory metrics for the pizza chain.
+
+**This dashboard should** allow me to visualize key performance indicators such as total revenue, average order value, total pizzas sold, and inventory usage efficiently.
+
+**With this information,** I aim to facilitate strategic business decisions for the management team, enabling them to enhance operational efficiency, understand customer preferences in-depth, and optimize marketing and inventory strategies effectively.
 
 
 
