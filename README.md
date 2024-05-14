@@ -137,6 +137,3 @@ Some of the data visuals that may be appropriate in answering our questions incl
 
  
 
-
-8. Write the documentation + commentary
-9. Publish the data to GitHub Pages
