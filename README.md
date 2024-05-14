@@ -3,7 +3,7 @@
 This repository contains a series of SQL queries designed to analyze the sales data of a pizza store. The queries help to extract meaningful insights such as total revenue, average order value, pizza sales trends, and much more from the `pizzas_sales` table.
 
 ## Table of Contents
-
+- [Objective](Objective)
 - [Database Setup](#database-setup)
 - [Import Data](#import-data)
 - [Query Descriptions](#query-descriptions)
@@ -12,6 +12,48 @@ This repository contains a series of SQL queries designed to analyze the sales d
 - [Tools](#Tools)
 - [Development](#Development)
 - [Summary and Conclusion](#Summary-and-Conclusion)
+
+
+
+# Objective 
+
+# Pizza Chain BI Dashboard
+
+## Overview
+This Business Intelligence (BI) dashboard is designed to help the management team of the pizza chain efficiently monitor and analyze critical aspects of their business operations. It provides real-time insights into sales performance, customer preferences, and operational metrics, aiding in strategic decision-making.
+
+## Key Pain Point
+The management team of the pizza chain faced challenges in efficiently monitoring and analyzing sales performance, customer preferences, and operational metrics. These challenges hindered their ability to make informed decisions and optimize business operations.
+
+## Dashboard Features
+
+### Total Revenue
+- **Purpose**: Monitors the overall sales effectiveness to gauge financial health and growth.
+- **Benefits**: Allows for real-time tracking of sales trends and revenue generation.
+
+### Average Order Value
+- **Purpose**: Provides insights into customer spending behaviors.
+- **Benefits**: Helps understand how much customers are spending per order, which can influence pricing strategies and promotional activities.
+
+### Total Pizzas Sold
+- **Purpose**: Tracks the popularity of different pizzas.
+- **Benefits**: Identifies best-selling products to inform marketing strategies and menu adjustments.
+
+### Total Orders
+- **Purpose**: Assesses the levels of customer engagement and order frequency.
+- **Benefits**: Enables understanding of customer retention and order patterns, useful for improving customer service and engagement strategies.
+
+### Inventory Usage
+- **Purpose**: Manages supply chain efficiency and tracks inventory levels.
+- **Benefits**: Optimizes inventory management to reduce waste and ensure the availability of ingredients, improving cost management.
+
+## Conclusion
+The deployment of this dashboard will significantly empower the pizza chain's marketing team by providing them with essential insights into sales performance, customer preferences, and operational metrics. With real-time data on total revenue, average order value, total pizzas sold, and more, the team can strategically plan and implement marketing initiatives. This will not only enhance decision-making but also optimize marketing campaigns to better target customer needs and preferences, ultimately boosting both customer engagement and profitability.
+
+
+
+
+
 
 
 ## Database Setup
