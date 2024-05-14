@@ -5,6 +5,7 @@ This repository contains a series of SQL queries designed to analyze the sales d
 ## Table of Contents
 - [Objective](#Objective)
 - [User Story](#User-Story)
+- [Design](#Design)
 - [Database Setup](#database-setup)
 - [Import Data](#import-data)
 - [Query Descriptions](#query-descriptions)
@@ -62,6 +63,33 @@ The deployment of this dashboard will significantly empower the pizza chain's ma
 **This dashboard should** allow me to visualize key performance indicators such as total revenue, average order value, total pizzas sold, and inventory usage efficiently.
 
 **With this information,** I aim to facilitate strategic business decisions for the management team, enabling them to enhance operational efficiency, understand customer preferences in-depth, and optimize marketing and inventory strategies effectively.
+
+
+## Design
+
+### Sales Performance
+- **Total Revenue**: What is the total revenue generated over selected periods?
+- **Monthly Sales Trends**: How do sales vary month-over-month and what seasonal trends exist?
+
+### Product Performance
+- **Top 5 Pizzas by Revenue**: Which pizzas generate the most revenue?
+- **Bottom 5 Pizzas by Revenue**: Which pizzas generate the least revenue?
+- **Top 5 Pizzas by Quantity Sold**: What are the most popular pizzas by quantity sold?
+- **Bottom 5 Pizzas by Quantity Sold**: What are the least popular pizzas by quantity sold?
+- **Total Pizzas Sold by Pizza Category in February**: How do different pizza categories perform in February?
+
+### Customer Engagement
+- **Total Orders**: How many orders have been placed?
+- **Average Order Value**: What is the average value of orders placed?
+- **Average Pizzas Per Order**: How many pizzas are typically ordered in one transaction?
+
+### Operational Insights
+- **Inventory and Supply Chain Management**: What are the most frequently used ingredients?
+- **Cost Analysis by Pizza Size**: What is the average cost per pizza size?
+
+### Strategic Decision Making
+- **% of Sales by Pizza Category and Size**: What percentage of total sales is contributed by each pizza category and size?
+- **Order Count by Pizza Category**: How frequently are pizzas from each category ordered?
 
 
 
