@@ -98,11 +98,11 @@ The deployment of this dashboard will significantly empower the pizza chain's ma
 
 Some of the data visuals that may be appropriate in answering our questions include:
 
-1. KPI(Key Performance Indicators):For displaying key performance indicators.
-2. Bar Chart: Daily Trend For Total Orders
-3. Line Chart: Monthly Trend For Total Orders
-4. Pie Chart:  % of Sales by Pizza Category & % of Sales by Pizza Size
-5. Horizontal bar chart: Total Pizza Sold by Category
+1. KPI(Key Performance Indicators)
+2. Bar Chart
+3. Line Chart
+4. Pie Chart
+5. Horizontal bar chart
 
    ![power bi 1](https://github.com/Akshay8087/Pizza-Sales-Analysis/assets/139254824/1c5ad2cb-6517-4a1c-bfd3-bab215950417)
 
