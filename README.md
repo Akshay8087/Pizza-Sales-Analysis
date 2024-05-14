@@ -3,8 +3,8 @@
 This repository contains a series of SQL queries designed to analyze the sales data of a pizza store. The queries help to extract meaningful insights such as total revenue, average order value, pizza sales trends, and much more from the `pizzas_sales` table.
 
 ## Table of Contents
-- [Objective](Objective)
-- [User Story](User-Story)
+- [Objective](#Objective)
+- [User Story](#User-Story)
 - [Database Setup](#database-setup)
 - [Import Data](#import-data)
 - [Query Descriptions](#query-descriptions)
