@@ -118,8 +118,10 @@ Some of the data visuals that may be appropriate in answering our questions incl
 | GitHub | Hosting the project documentation and version control |
 | Mokkup AI | Designing the wireframe/mockup of the dashboard | 
 
-## Development
-- What's the general approach in creating this solution from start to finish?
+# Development
+
+## Pseudocode
+What's the general approach in creating this solution from start to finish?
 
 1. Get the data
 2. Explore the data in Excel
@@ -130,6 +132,109 @@ Some of the data visuals that may be appropriate in answering our questions incl
 7. Generate the findings based on the insights
 8. Write the documentation + commentary
 9. Publish the data to GitHub Pages
+
+
+## Data exploration notes
+
+This is the stage where you have a scan of what's in the data, errors, inconcsistencies, bugs, weird and corrupted characters etc  
+- What are your initial observations with this dataset? What's caught your attention so far? 
+ 
+1. The dataset seems to be relatively comprehensive, containing at least 12 columns that provide various insights into pizza sales. 
+2. Rich Details: Includes unique IDs, descriptions (pizza name, size, category) and quantities (how many, price, total).
+3. Tracks Time: Order date and time allow analysis of trends across days, weeks, etc. (ensure consistent formatting).
+4. Product Breakdown: Details on pizza variations (name, size, category) enable segmentation for targeted analysis.
+5. Revenue Analysis: Unit price and total price reveal pricing strategies and revenue generation (average price, revenue per order, etc.).
+6. Clear Segmentation: Data allows you to understand what sells best based on size, category, etc.
+7. Data Quality Matters: Check for missing values, outliers, and formatting errors to ensure reliable analysis.
+8. Actionable Insights: Uncover trends, customer preferences, and pricing strategies to optimize your business.
+
+
+## Data cleaning 
+- What do we expect the clean data to look like? (What should it contain? What contraints should we apply to it?)
+The aim is to refine our dataset to ensure it is structured and ready for analysis. 
+
+The cleaned data should meet the following criteria and constraints:
+
+- Only relevant columns should be retained.
+- All data types should be appropriate for the contents of each column.
+- No column should contain null values, indicating complete data for all records.
+
+Below is a table outlining the constraints on our cleaned dataset:
+
+| Property | Description |
+| --- | --- |
+| Number of Rows | 48620 |
+| Number of Columns | 12 |
+
+
+And here is a tabular representation of the expected schema for the clean data:
+
+| Field           | Type             | Description                             | Nullable  |
+|-----------------|------------------|-----------------------------------------|-----------|
+| pizza_id        | int (Primary Key)| Unique identifier for each pizza        | No        |
+| order_id        | int              | Identifier for the order                | No        |
+| pizza_name_id   | varchar(255)     | Identifier for the pizza type           | No        |
+| quantity        | int              | Quantity of pizzas ordered              | No        |
+| order_date      | date             | Date of the order                       | No        |
+| order_time      | time             | Time of the order                       | No        |
+| unit_price      | decimal(10, 2)   | Price per pizza unit                    | No        |
+| total_price     | decimal(10, 2)   | Total price of the order                | No        |
+| pizza_size      | varchar(50)      | Size of the pizza (e.g., small, medium) | No        |
+| pizza_category  | varchar(100)     | Category of the pizza                   | No        |
+| pizza_ingredients | text           | Ingredients used in the pizza           | No        |
+| pizza_name      | varchar(255)     | Name of the pizza                       | No        |
+
+
+
+# Testing 
+
+- What data quality and validation checks are you going to create?
+
+Here are the data quality tests conducted:
+
+
+## Row count check
+```sql
+/*
+# Count the total number of records (or rows) are in the SQL 
+*/
+
+SELECT
+    COUNT(*) AS no_of_rows
+FROM
+    view_uk_youtubers_2024;
+
+```
+## Output
+![Screenshot 2024-05-16 180941](https://github.com/Akshay8087/Pizza-Sales-Analysis/assets/139254824/a2e746e7-07e4-43fa-9796-f700529dfd62)
+
+## Column count check
+### SQL query 
+```sql
+/*
+# Count the total number of columns (or fields) are in the SQL view
+*/
+
+
+SELECT column_name, data_type
+  FROM information_schema.columns
+    WHERE table_name = 'pizzas_sales';
+```
+### Output 
+![Screenshot 2024-05-16 181750](https://github.com/Akshay8087/Pizza-Sales-Analysis/assets/139254824/e3edae2d-d938-4bd1-8c87-3dd965581983)
+
+
+# Visualization 
+
+
+## Results
+
+- What does the dashboard look like?
+
+ ![Screenshot 2024-05-16 184543](https://github.com/Akshay8087/Pizza-Sales-Analysis/assets/139254824/5ee0895c-c3d0-46ee-a8af-ede0e696fdf5)
+
+
+ ![Screenshot 2024-05-16 185110](https://github.com/Akshay8087/Pizza-Sales-Analysis/assets/139254824/011c00f4-14cc-49dc-8789-186f895bbc8c)
 
 
 
