@@ -12,7 +12,7 @@ This repository contains a series of SQL queries designed to analyze the sales d
 - [Power BI Dashboard](#power-bi-dashboard)
 - [Run the Queries](#run-the-queries)
 - [Development](#Development)
-- [Summary and Conclusion](#Summary-and-Conclusion)
+- [Action plan](#Action-plan)
 
 
 
@@ -237,6 +237,42 @@ SELECT column_name, data_type
  ![Screenshot 2024-05-16 185110](https://github.com/Akshay8087/Pizza-Sales-Analysis/assets/139254824/011c00f4-14cc-49dc-8789-186f895bbc8c)
 
 
+ ### Action plan
+- What course of action should we take and why?
+
+Increase pizza sales through strategic partnerships with popular influencers on social media.
+
+We'll engage in discussions with our marketing client to align on their expectations for this collaboration. By forecasting together, we can ensure that our strategies are in line with their objectives. Once we start achieving the anticipated milestones and see positive results, we'll explore potential partnerships with channels like Pizza Experts, TasteMasters, and PizzaConnoisseurs. These collaborations will further expand our reach within the pizza-loving community and solidify our presence in the market.
+
+- What steps do we take to implement the recommended decisions effectively?
+
+## Client Consultation
+- **Objective**: Schedule meetings with the marketing client to understand their objectives, target audience, and expectations for the collaboration. Gather insights into their brand messaging and goals.
+- **Action**: Initiate discussions with the client to align on project goals and objectives. Collect detailed information about their target audience, brand identity, and desired outcomes from the collaboration.
+
+## Channel Research
+- **Objective**: Conduct thorough research on potential influencer channels within the food and lifestyle niche. Analyze audience demographics, engagement metrics, and content style to identify the most suitable partners for promoting pizza products.
+- **Action**: Explore various influencer channels such as Pizza Lover's Club, Foodie Adventures, and Tasty Bites. Evaluate their audience demographics, engagement rates, and content themes to determine their suitability for collaboration.
+
+## Outreach and Negotiation
+- **Objective**: Initiate contact with selected influencers and negotiate partnership terms, ensuring alignment with the client's budget and objectives.
+- **Action**: Reach out to influencers identified during channel research. Present the benefits of collaboration and negotiate partnership terms, including deliverables, posting schedules, compensation, and any exclusivity clauses.
+
+## Contract Finalization
+- **Objective**: Work with legal and finance teams to finalize partnership agreements that outline clear deliverables, posting schedules, compensation terms, and any exclusivity clauses.
+- **Action**: Collaborate with legal and finance teams to draft partnership agreements based on negotiated terms. Ensure contracts are comprehensive and legally binding, protecting the interests of both parties.
+
+## Campaign Execution
+- **Objective**: Launch promotional campaigns on the selected channels, providing influencers with branded content, discount codes, or special offers to share with their audiences.
+- **Action**: Coordinate closely with influencers to ensure the timely execution of promotional campaigns. Provide influencers with necessary resources, such as branded content and promotional materials, to facilitate campaign delivery.
+
+## Performance Monitoring
+- **Objective**: Utilize analytics tools to track campaign performance in real-time, monitoring metrics such as website traffic, online orders, social media engagement, and coupon redemptions.
+- **Action**: Implement tracking mechanisms to monitor campaign performance across various channels. Analyze collected data to assess the effectiveness of each partnership and identify areas for improvement.
+
+## Feedback Collection
+- **Objective**: Gather feedback from both the marketing client and influencer channels to evaluate the campaign's impact on brand awareness, customer engagement, and sales growth.
+- **Action**: Solicit feedback from the client and influencers involved in the campaign. Evaluate feedback to identify successes and areas for improvement, informing future campaign strategies and optimizations.
 
 
 
