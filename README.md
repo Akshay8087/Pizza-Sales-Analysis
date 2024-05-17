@@ -9,9 +9,9 @@ This repository contains a series of SQL queries designed to analyze the sales d
 - [Dashboard mockup](#Dashboard-mockup)
 - [Tools](#Tools)
 - [Development](#Development)
-- [Power BI Dashboard](#power-bi-dashboard)
 - [Run the Queries](#run-the-queries)
 - [Development](#Development)
+- [Visualization](#visualization)
 - [Action plan](#Action-plan)
 
 
