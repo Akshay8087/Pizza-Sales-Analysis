@@ -1,6 +1,8 @@
-![Pizza](https://github.com/user-attachments/assets/10b31979-b8ae-447c-952c-feb154c5c77d)
 
 # Pizza Sales Database Queries
+
+![Pizza](https://github.com/user-attachments/assets/10b31979-b8ae-447c-952c-feb154c5c77d)
+
 
 This repository contains a series of SQL queries designed to analyze the sales data of a pizza store. The queries help to extract meaningful insights such as total revenue, average order value, pizza sales trends, and much more from the `pizzas_sales` table.
 
